@@ -3180,7 +3180,7 @@ class Ui_MainWindow(object):
         # T18_RL4_P2 = float(self.input_T18_RL4.text())
 
         self.PosI_Result_T4_T4.setText(str(round(T4L_P1 - T4PR_P1, 2)))  # обращаемся к окну PosI_Result_T4_T4 и функцией setText
-        # передаем результат расчета в это окно. str преобразуем результат в текст. Функцией round округляем резульат
+        # передаем результат расчета в это окно. str преобразуем результат в текст. Функцией round округляем результат
         # до второго знака после запятой
         if round(T4L_P1 - T4PR_P1, 2) == 0:  # проверка на входимость результата в поле допуска
             self.PosI_Control_Ustanovka_isd.setText("Соответствует")
