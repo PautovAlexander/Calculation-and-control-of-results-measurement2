@@ -4553,10 +4553,10 @@ class Ui_MainWindow(object):
         KrytkaKorpusa_P1 = Calculation(delta1L_P1, delta1PR_P1, 1.5, -1.5, PosI_Result_Delta1, PosI_Control_KrytkaKorpusa)
         KrytkaKorpusa_P1.get_result()
 
-        UstanovkaUskoritela_P1 = Calculation(T6SR_P1, T4PR_P1, 0.6, -0.6, PosI_Result_T6SR_T4, PosI_Control_UstanovkaUskoritela)
+        UstanovkaUskoritela_P1 = Calculation(T6SR_P1, T4PR_P1, -1.1, -2.3, PosI_Result_T6SR_T4, PosI_Control_UstanovkaUskoritela)
         UstanovkaUskoritela_P1.get_result()
 
-        PologenieOsiUskorit_P1 = Calculation(T23SR_P1, T6SR_P1, 0.3, -0.3, PosI_Result_T23SR_T6SR, PosI_Control_PologenieOsiUskorit)
+        PologenieOsiUskorit_P1 = Calculation(T23SR_P1, T6SR_P1, -1.4, -2.0, PosI_Result_T23SR_T6SR, PosI_Control_PologenieOsiUskorit)
         PologenieOsiUskorit_P1.get_result()
 
         UstanovkaKR1_P1 = Calculation(T7_KR1_P1, T4PR_P1, 2, -2, PosI_Result_T7KR1_T4, PosI_Control_UstanovkaKR1)
@@ -4598,7 +4598,7 @@ class Ui_MainWindow(object):
         Ustanovkapilona1_P1 = Calculation(T13_RL1_P1, T4PR_P1, 2.5, -2.5, PosI_Result_T13Pilon1_T4, PosI_Control_Ustanovkapilona1)
         Ustanovkapilona1_P1.get_result()
 
-        Ustanovkapilona3_P1 = Calculation(T13_RL3_P1, T4L_P1, 2.5, -2.5, PosI_Result_T13Pilon3_T4, PosI_Control_Ustanovkapilona3)
+        Ustanovkapilona3_P1 = Calculation(T13_RL3_P1, T4L_P1, 29.9, -24.9, PosI_Result_T13Pilon3_T4, PosI_Control_Ustanovkapilona3)
         Ustanovkapilona3_P1.get_result()
 
         Zaklinpilona1_P1 = Calculation(T14_RL1_P1, T13_RL1_P1, 1.2, -1.2, PosI_Result_T14Pilon1_T13, PosI_Control_Zaklinpilona1)
@@ -4607,34 +4607,34 @@ class Ui_MainWindow(object):
         Zaklinpilona3_P1 = Calculation(T14_RL3_P1, T13_RL3_P1, 1.2, -1.2, PosI_Result_T14Pilon3_T13, PosI_Control_Zaklinpilona3)
         Zaklinpilona3_P1.get_result()
 
-        UstanovkaRL1_P1 = Calculation(T15_RL1_P1, T4PR_P1, 3.2, -3.2, PosI_Result_T15RL1_T4, PosI_Control_UstanovkaRL1)
+        UstanovkaRL1_P1 = Calculation(T15_RL1_P1, T4PR_P1, 13.1, 6.7, PosI_Result_T15RL1_T4, PosI_Control_UstanovkaRL1)
         UstanovkaRL1_P1.get_result()
 
-        UstanovkaRL3_P1 = Calculation(T15_RL3_P1, T4L_P1, 3.2, -3.2, PosI_Result_T15RL3_T4, PosI_Control_UstanovkaRL3)
+        UstanovkaRL3_P1 = Calculation(T15_RL3_P1, T4L_P1, 47.9, 41.5, PosI_Result_T15RL3_T4, PosI_Control_UstanovkaRL3)
         UstanovkaRL3_P1.get_result()
 
-        ZaklinivanieRL1_P1 = Calculation(T16_RL1_P1, T15_RL1_P1, 2.5, -2.5, PosI_Result_T16RL1_T15, PosI_Control_ZaklinivanieRL1)
+        ZaklinivanieRL1_P1 = Calculation(T16_RL1_P1, T15_RL1_P1, -20.1, -25.1, PosI_Result_T16RL1_T15, PosI_Control_ZaklinivanieRL1)
         ZaklinivanieRL1_P1.get_result()
 
-        ZaklinivanieRL3_P1 = Calculation(T16_RL3_P1, T15_RL3_P1, 2.5, -2.5, PosI_Result_T16RL3_T15, PosI_Control_ZaklinivanieRL3)
+        ZaklinivanieRL3_P1 = Calculation(T16_RL3_P1, T15_RL3_P1, -20.1, -25.1, PosI_Result_T16RL3_T15, PosI_Control_ZaklinivanieRL3)
         ZaklinivanieRL3_P1.get_result()
 
-        PoperechnayaV_RL1_P1 = Calculation(T17_RL1_P1, T15_RL1_P1, 5.4, -5.4, PosI_Result_T17RL1_T15, PosI_Control_PoperechnayaV_RL1)
+        PoperechnayaV_RL1_P1 = Calculation(T17_RL1_P1, T15_RL1_P1, -8.3, -19.1, PosI_Result_T17RL1_T15, PosI_Control_PoperechnayaV_RL1)
         PoperechnayaV_RL1_P1.get_result()
 
-        PoperechnayaV_RL3_P1 = Calculation(T17_RL3_P1, T15_RL3_P1, 5.4, -5.4, PosI_Result_T17RL3_T15, PosI_Control_PoperechnayaV_RL3)
+        PoperechnayaV_RL3_P1 = Calculation(T17_RL3_P1, T15_RL3_P1, 15.5, 4.7, PosI_Result_T17RL3_T15, PosI_Control_PoperechnayaV_RL3)
         PoperechnayaV_RL3_P1.get_result()
 
-        Krutka_RL1_P1 = Calculation(T18_RL1_P1, T17_RL1_P1, 4.4, -4.4, PosI_Result_T18RL1_T17, PosI_Control_Krutka_RL1)
+        Krutka_RL1_P1 = Calculation(T18_RL1_P1, T17_RL1_P1, -8.6, -17.4, PosI_Result_T18RL1_T17, PosI_Control_Krutka_RL1)
         Krutka_RL1_P1.get_result()
 
-        Krutka_RL3_P1 = Calculation(T18_RL3_P1, T17_RL3_P1, 4.4, -4.4, PosI_Result_T18RL3_T17, PosI_Control_Krutka_RL3)
+        Krutka_RL3_P1 = Calculation(T18_RL3_P1, T17_RL3_P1, -8.6, -17.4, PosI_Result_T18RL3_T17, PosI_Control_Krutka_RL3)
         Krutka_RL3_P1.get_result()
 
-        UstanovkaStabiliz1_P1 = Calculation(T19_ST1_P1, T4PR_P1, 3.5, -3.5, PosI_Result_T19ST1_T4, PosI_Control_UstanovkaStabiliz1)
+        UstanovkaStabiliz1_P1 = Calculation(T19_ST1_P1, T4PR_P1, -77.5, -84.5, PosI_Result_T19ST1_T4, PosI_Control_UstanovkaStabiliz1)
         UstanovkaStabiliz1_P1.get_result()
 
-        UstanovkaStabiliz3_P1 = Calculation(T19_ST3_P1, T4L_P1, 3.5, -3.5, PosI_Result_T19ST3_T4,  PosI_Control_UstanovkaStabiliz3)
+        UstanovkaStabiliz3_P1 = Calculation(T19_ST3_P1, T4L_P1, 84.5, 77.5, PosI_Result_T19ST3_T4,  PosI_Control_UstanovkaStabiliz3)
         UstanovkaStabiliz3_P1.get_result()
 
         ZaklinStabiliz1_P1 = Calculation(T20_ST1_P1, T19_ST1_P1, 2.0, -2.0, PosI_Result_T20ST1_T19, PosI_Control_ZaklinStabiliz1)
@@ -4643,10 +4643,10 @@ class Ui_MainWindow(object):
         ZaklinStabiliz3_P1 = Calculation(T20_ST3_P1, T19_ST3_P1, 2.0, -2.0, PosI_Result_T20ST3_T19, PosI_Control_ZaklinStabiliz3)
         ZaklinStabiliz3_P1.get_result()
 
-        PoperechnayaVStabiliz1_P1 = Calculation(T21_ST1_P1, T19_ST1_P1, 5.5, -5.5, PosI_Result_T21ST1_T19, PosI_Control_PoperechnayaVStabiliz1)
+        PoperechnayaVStabiliz1_P1 = Calculation(T21_ST1_P1, T19_ST1_P1, -60.5, -71.5, PosI_Result_T21ST1_T19, PosI_Control_PoperechnayaVStabiliz1)
         PoperechnayaVStabiliz1_P1.get_result()
 
-        PoperechnayaVStabiliz3_P1 = Calculation(T21_ST3_P1, T19_ST3_P1, 5.5, -5.5, PosI_Result_T21ST3_T19, PosI_Control_PoperechnayaVStabiliz3)
+        PoperechnayaVStabiliz3_P1 = Calculation(T21_ST3_P1, T19_ST3_P1, 65.5, 54.5, PosI_Result_T21ST3_T19, PosI_Control_PoperechnayaVStabiliz3)
         PoperechnayaVStabiliz3_P1.get_result()
 
         KrutkaStabiliz1_P1 = Calculation(T22_ST1_P1, T21_ST1_P1, 3.5, -3.5, PosI_Result_T22ST1_T21, PosI_Control_KrutkaStabiliz1)
@@ -4673,10 +4673,10 @@ class Ui_MainWindow(object):
         KrytkaKorpusa_P2 = Calculation(delta1L_P2, delta1PR_P2, 1.5, -1.5, PosII_Result_Delta1, PosII_Control_KrytkaKorpusa)
         KrytkaKorpusa_P2.get_result()
 
-        UstanovkaUskoritela_P2 = Calculation(T6SR_P2, T4PR_P2, 0.6, -0.6, PosII_Result_T6SR_T4, PosII_Control_UstanovkaUskoritela)
+        UstanovkaUskoritela_P2 = Calculation(T6SR_P2, T4PR_P2, 2.3, 1.1, PosII_Result_T6SR_T4, PosII_Control_UstanovkaUskoritela)
         UstanovkaUskoritela_P2.get_result()
 
-        PologenieOsiUskorit_P2 = Calculation(T23SR_P2, T6SR_P2, 0.3, -0.3, PosII_Result_T23SR_T6SR, PosII_Control_PologenieOsiUskorit)
+        PologenieOsiUskorit_P2 = Calculation(T23SR_P2, T6SR_P2, 2.0, 1.4, PosII_Result_T23SR_T6SR, PosII_Control_PologenieOsiUskorit)
         PologenieOsiUskorit_P2.get_result()
 
         UstanovkaKR2_P2 = Calculation(T7_KR2_P2, T4PR_P2, 2, -2, PosII_Result_T7KR2_T4, PosII_Control_UstanovkaKR2)
@@ -4715,7 +4715,7 @@ class Ui_MainWindow(object):
         Krutka_KR4_P2 = Calculation(T12_KR4_P2, T11_KR4_P2, 4, -4, PosII_Result_T12KR4_T11, PosII_Control_Krutka_KR4)
         Krutka_KR4_P2.get_result()
 
-        Ustanovkapilona2_P2 = Calculation(T13_RL2_P2, T4PR_P2, 2.5, -2.5, PosII_Result_T13Pilon2_T4, PosII_Control_Ustanovkapilona2)
+        Ustanovkapilona2_P2 = Calculation(T13_RL2_P2, T4PR_P2, -24.9, -29.9, PosII_Result_T13Pilon2_T4, PosII_Control_Ustanovkapilona2)
         Ustanovkapilona2_P2.get_result()
 
         Ustanovkapilona4_P2 = Calculation(T13_RL4_P2, T4L_P2, 2.5, -2.5, PosII_Result_T13Pilon4_T4, PosII_Control_Ustanovkapilona4)
@@ -4727,34 +4727,34 @@ class Ui_MainWindow(object):
         Zaklinpilona4_P2 = Calculation(T14_RL4_P2, T13_RL4_P2, 1.2, -1.2, PosII_Result_T14Pilon4_T13, PosII_Control_Zaklinpilona4)
         Zaklinpilona4_P2.get_result()
 
-        UstanovkaRL2_P2 = Calculation(T15_RL2_P2, T4PR_P2, 3.2, -3.2, PosII_Result_T15RL2_T4, PosII_Control_UstanovkaRL2)
+        UstanovkaRL2_P2 = Calculation(T15_RL2_P2, T4PR_P2, -41.5, -47.9, PosII_Result_T15RL2_T4, PosII_Control_UstanovkaRL2)
         UstanovkaRL2_P2.get_result()
 
-        UstanovkaRL4_P2 = Calculation(T15_RL4_P2, T4L_P2, 3.2, -3.2, PosII_Result_T15RL4_T4, PosII_Control_UstanovkaRL4)
+        UstanovkaRL4_P2 = Calculation(T15_RL4_P2, T4L_P2, -6.7, -13.1, PosII_Result_T15RL4_T4, PosII_Control_UstanovkaRL4)
         UstanovkaRL4_P2.get_result()
 
-        ZaklinivanieRL2_P2 = Calculation(T16_RL2_P2, T15_RL2_P2, 2.5, -2.5, PosII_Result_T16RL2_T15, PosII_Control_ZaklinivanieRL2)
+        ZaklinivanieRL2_P2 = Calculation(T16_RL2_P2, T15_RL2_P2, 25.1, 20.1, PosII_Result_T16RL2_T15, PosII_Control_ZaklinivanieRL2)
         ZaklinivanieRL2_P2.get_result()
 
-        ZaklinivanieRL4_P2 = Calculation(T16_RL4_P2, T15_RL4_P2, 2.5, -2.5, PosII_Result_T16RL4_T15, PosII_Control_ZaklinivanieRL4)
+        ZaklinivanieRL4_P2 = Calculation(T16_RL4_P2, T15_RL4_P2, 25.1, 20.1, PosII_Result_T16RL4_T15, PosII_Control_ZaklinivanieRL4)
         ZaklinivanieRL4_P2.get_result()
 
-        PoperechnayaV_RL2_P2 = Calculation(T17_RL2_P2, T15_RL2_P2, 5.4, -5.4, PosII_Result_T17RL2_T15, PosII_Control_PoperechnayaV_RL2)
+        PoperechnayaV_RL2_P2 = Calculation(T17_RL2_P2, T15_RL2_P2, -4.7, -15.5, PosII_Result_T17RL2_T15, PosII_Control_PoperechnayaV_RL2)
         PoperechnayaV_RL2_P2.get_result()
 
-        PoperechnayaV_RL4_P2 = Calculation(T17_RL4_P2, T15_RL4_P2, 5.4, -5.4, PosII_Result_T17RL4_T15, PosII_Control_PoperechnayaV_RL4)
+        PoperechnayaV_RL4_P2 = Calculation(T17_RL4_P2, T15_RL4_P2, 19.1, 8.3, PosII_Result_T17RL4_T15, PosII_Control_PoperechnayaV_RL4)
         PoperechnayaV_RL4_P2.get_result()
 
-        Krutka_RL2_P2 = Calculation(T18_RL2_P2, T17_RL2_P2, 4.4, -4.4, PosII_Result_T18RL2_T17, PosII_Control_Krutka_RL2)
+        Krutka_RL2_P2 = Calculation(T18_RL2_P2, T17_RL2_P2, 17.7, 8.6, PosII_Result_T18RL2_T17, PosII_Control_Krutka_RL2)
         Krutka_RL2_P2.get_result()
 
-        Krutka_RL4_P2 = Calculation(T18_RL4_P2, T17_RL4_P2, 4.4, -4.4, PosII_Result_T18RL4_T17, PosII_Control_Krutka_RL4)
+        Krutka_RL4_P2 = Calculation(T18_RL4_P2, T17_RL4_P2, 17.7, 8.6, PosII_Result_T18RL4_T17, PosII_Control_Krutka_RL4)
         Krutka_RL4_P2.get_result()
 
-        UstanovkaStabiliz2_P2 = Calculation(T19_ST2_P2, T4PR_P2, 3.5, -3.5, PosII_Result_T19ST2_T4, PosII_Control_UstanovkaStabiliz2)
+        UstanovkaStabiliz2_P2 = Calculation(T19_ST2_P2, T4PR_P2, -77.5, -84.5, PosII_Result_T19ST2_T4, PosII_Control_UstanovkaStabiliz2)
         UstanovkaStabiliz2_P2.get_result()
 
-        UstanovkaStabiliz4_P2 = Calculation(T19_ST4_P2, T4L_P2, 3.5, -3.5, PosII_Result_T19ST4_T4,  PosII_Control_UstanovkaStabiliz4)
+        UstanovkaStabiliz4_P2 = Calculation(T19_ST4_P2, T4L_P2, 84.5, 77.5, PosII_Result_T19ST4_T4,  PosII_Control_UstanovkaStabiliz4)
         UstanovkaStabiliz4_P2.get_result()
 
         ZaklinStabiliz2_P2 = Calculation(T20_ST2_P2, T19_ST2_P2, 2.0, -2.0, PosII_Result_T20ST2_T19, PosII_Control_ZaklinStabiliz2)
@@ -4763,10 +4763,10 @@ class Ui_MainWindow(object):
         ZaklinStabiliz4_P2 = Calculation(T20_ST4_P2, T19_ST4_P2, 2.0, -2.0, PosII_Result_T20ST4_T19, PosII_Control_ZaklinStabiliz4)
         ZaklinStabiliz4_P2.get_result()
 
-        PoperechnayaVStabiliz2_P2 = Calculation(T21_ST2_P2, T19_ST2_P2, 5.5, -5.5, PosII_Result_T21ST2_T19, PosII_Control_PoperechnayaVStabiliz2)
+        PoperechnayaVStabiliz2_P2 = Calculation(T21_ST2_P2, T19_ST2_P2, -60.5, -71.5, PosII_Result_T21ST2_T19, PosII_Control_PoperechnayaVStabiliz2)
         PoperechnayaVStabiliz2_P2.get_result()
 
-        PoperechnayaVStabiliz4_P2 = Calculation(T21_ST4_P2, T19_ST4_P2, 5.5, -5.5, PosII_Result_T21ST4_T19, PosII_Control_PoperechnayaVStabiliz4)
+        PoperechnayaVStabiliz4_P2 = Calculation(T21_ST4_P2, T19_ST4_P2, 71.5, 60.5, PosII_Result_T21ST4_T19, PosII_Control_PoperechnayaVStabiliz4)
         PoperechnayaVStabiliz4_P2.get_result()
 
         KrutkaStabiliz2_P2 = Calculation(T22_ST2_P2, T21_ST2_P2, 3.5, -3.5, PosII_Result_T22ST2_T21, PosII_Control_KrutkaStabiliz2)
